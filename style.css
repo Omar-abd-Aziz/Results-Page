@@ -1,0 +1,78 @@
+header {
+    background: #0184de;
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+}
+
+
+header #ChangeLn{
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    padding: 4px;
+    margin-right: 50px;
+}
+
+
+.logoDad{
+    width: 100%;
+    display: flex;
+}
+
+.logoDad #TheLogo{
+    width: 150px;
+    margin: auto;
+}
+
+
+
+
+.divHasBgImg{
+    background-image: url("./images/home-img.93e08c2f7385ec444d05.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px 0px 50px;
+    border-top: 4px solid #0184de;
+}
+
+
+
+.divHasBgImg div h1{
+    color: white;
+    text-align: center;
+    margin: 50px;
+}
+
+.card{
+    padding: 15px 15px 0px;
+    min-width: 350px !important;
+    margin: 10px  auto !important;
+    margin: 10px;
+}
+
+@media (max-width: 500px) {
+    
+    .card{
+        min-width: 90% !important;
+    }
+
+}
+
+
+.card-title{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+.card-body{
+    display: flex;
+    justify-content: center;
+}
+
+.CardImg{
+    font-size: 60px;
+    margin: auto;
+    text-align: center;
+}
